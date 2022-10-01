@@ -7,13 +7,16 @@
 }
 
 .nav-bar{
-    width: 100%;
+    /* width: 100%; */
     background: transparent;
+    
 }
 
 nav{
     display: flex;
     flex-direction: row;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 nav .nav-links li a{
@@ -26,21 +29,29 @@ nav .nav-links li{
     list-style: none;
     margin: 0px 20px;
     padding-top: 60px;
+    font-size: 24px;
     /* padding-right: 50px; */
+}
+
+nav .nav-links li:hover{
+    color: #961DB5;
+    transition: 0.5s;
+    font-size: 20px;
 }
 
 img{
     padding-top: 60px;
-    padding-left: 100px;
-    height: 80px;
-    width: 100px;
+    /* padding-left: 100px; */
+    height: 60px;
+    width: 180px;
 }
 
 .nav-links{
     margin-left: auto;
-    padding-right: 50px;
+    /* padding-right: 50px; */
     font-size: 20px;
 }
+
 
 button{
     background-color: #961DB5;
@@ -52,17 +63,23 @@ button{
 
 ul li button .hire-btn{
     color: #fff;
-    background-color: #961DB5;
+    /* background-color: #961DB5; */
     font-size: 18px;
+}
+
+.hire:hover{
+    background-color: #AC8EF8;
 }
 
 .content1{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 150px;
+    justify-content: space-between;
+    margin-top: 50px;
     height: 100vh;
-    width: 100%;
+    margin-left: 120px;
+    margin-right: 120px;
+    /* width: 100%; */
 }
 
 .image1 img{
@@ -72,6 +89,7 @@ ul li button .hire-btn{
 
 .text1{
     padding-top: 150px;
+    margin-right: 150px;
 }
 
 .text1 h1{
@@ -86,24 +104,30 @@ ul li button .hire-btn{
 }
 
 .skills{
-    width: 100%;
+    /* width: 100%; */
     /* padding-left: 200px; */
     font-size: 24px;
-    /* justify-content: center; */
+    justify-content: space-between;
     height: 40vh;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .skill1{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    /* margin-left: 120px;
+    margin-right: 120px; */
 }
 
 .skill2{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-left: 80px;
+    justify-content: space-between;
+    /* padding-left: 80px; */
+    /* margin-left: 120px;
+    margin-right: 120px; */
 }
 
 .skill1 .skill-info{
@@ -116,7 +140,7 @@ ul li button .hire-btn{
 }
 
 .service{
-    width: 100%;
+    /* width: 100%; */
     background-color: #E7D4FA;
     padding-bottom: 70px;
     padding-top: 70px;
@@ -133,7 +157,9 @@ ul li button .hire-btn{
 .serve{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 
@@ -190,8 +216,10 @@ ul li button .hire-btn{
 }
 
 .clients{
-    width: 100%;
+    /* width: 100%; */
     margin-top: 200px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .clients img{
@@ -213,7 +241,7 @@ ul li button .hire-btn{
     gap: 40px;
     justify-content: center;
     /* position: absolute; */
-    width: 100%;
+    /* width: 100%; */
     height: 398px;
     left: 120px;
     /* top: 2579px; */
@@ -221,15 +249,17 @@ ul li button .hire-btn{
 }
 
 .footer{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: row;
-    padding-left: 160px;
+    /* padding-left: 160px; */
     /* margin-top: 80px; */
     font-size: 24px;
     /* background-color: #E7D4FA; */
     padding-top: 40px;
-    padding-bottom: 20px;;
+    padding-bottom: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .footer-link{
@@ -244,25 +274,29 @@ ul li button .hire-btn{
 
 .footer2{
     display: flex;
-    width: 100%;
-    padding-left: 160px;
+    /* width: 100%; */
+    /* padding-left: 160px; */
     font-size: 24px;
     padding-top: 30px;
     /* background-color: #E7D4FA; */
     padding-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 hr{
     width: 70%;
     border: 1px solid #AAAAAA;
     /* padding-left: 50px; */
+    margin-left: 280px;
+    margin-right: 120px;
 
 
 }
 
 .footer-icons{
     margin-left: auto;
-    margin-right: 260px;
+    /* margin-right: 260px; */
     color: #AAAAAA;
 }
 
@@ -274,27 +308,110 @@ hr{
     .content1{
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
+    }
+
+    .image1 img{
+        width: 273px;
+        height: 374.62px;
     }
 
     .skills{
-        margin-top: 200px;
+        margin-top: 320px;
+       margin-left: 20px;
+       margin-right: 20px;
     }
 
     .skill1{
         display: flex;
         flex-direction: column;
-        padding: 0;
-        margin: 0;
+        justify-content: center;
+        align-items: flex-start;
+        
     }
 
-    .skills2{
+    .skill-sub1 p{
+        margin-left: 100px;
+    }
+
+    .skill-info p{
+        margin-left: 100px;
+    }
+    .skill2{
         display: flex;
         flex-direction: column;
-        padding: 0;
-        margin: 0;
+        justify-content: center;
+        align-items: flex-start;
+       
     }
+
+    .text1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text1 h1{
+        font-size: 24px;
+        font-family: 'Quando', sans-serif;
+    }
+
+    .text1 p{
+        font-size: 16px;
+    }
+
+    .skill-sub1 p{
+        font-size: 16px;
+        padding-right: 500px;
+        text-align: left;
+    }
+
+    .skill-info p{
+        font-size: 16px;
+    }
+
+    .service h1{
+        font-size: 24px;
+    }
+
+    .serve{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+    }
+
+    .serve1 img{
+        width: 270px;
+        height: 243.87px;
+    }
+
+    .serve1 p{
+        font-size: 24px;
+    }
+
+    .serve2 p{
+        font-size: 16px;
+    }
+
+    .exp1 p{
+        font-size: 24px;
+    }
+
+    .exp2 p{
+        font-size: 24px;
+    }
+
+    .serve12 img{
+        width: 270px;
+        height: 240px;
+    }
+
+    .serve12 p{
+        font-size: 24px;
+    }
+
 }
+
 
 /* ABOUT SECTION */
 
@@ -344,12 +461,13 @@ hr{
 
 .header-img{
     position: absolute;
-width: 1300px;
-height: 185px;
-left: 160px;
-top: 220px;
-
-background: url(Frame\ 21.png);
+    width: 1200px;
+    height: 185px;
+    left: 160px;
+    top: 220px;
+    /* margin-left: 120px;
+    margin-right: 120px; */
+    background: url(Frame\ 21.png);
 }
 
 .header-img2{
@@ -406,11 +524,12 @@ background: url(Frame\ 19.png);
     background: transparent;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 70px
 }
 
 .a-btn button{
     background: transparent;
-    border: 3px solid #961DB5;
+    border: 2px solid #961DB5;
     border-radius: 5px;
     padding: 10px 15px;
     text-align: center;
@@ -418,10 +537,15 @@ background: url(Frame\ 19.png);
     font-family: 'Satoshi';
 }
 
+.a-btn button:hover{
+    border: 4px solid #961DB5;
+}
+
 .a-btn button a{
     text-decoration: none;
     color: #961DB5;
 }
+
 
 /* SERVICES PAGE */
 .service-bg{
@@ -507,3 +631,7 @@ background: url(Frame\ 19.png);
     margin: 100px 0;
     padding: 100px 0;
 }
+
+
+
+
