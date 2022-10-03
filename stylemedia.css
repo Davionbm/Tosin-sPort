@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #F7E5FD; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Satoshi', sans-serif;
+}
+
+@media screen(max-width: 700px) {
+        .content1{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    
+        .image1 img{
+            width: 273px;
+            height: 374.62px;
+        }
+    
+        .skills{
+            margin-top: 320px;
+           margin-left: 20px;
+           margin-right: 20px;
+        }
+    
+        .skill1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            
+        }
+    
+        .skill-sub1 p{
+            margin-left: 100px;
+        }
+    
+        .skill-info p{
+            margin-left: 100px;
+        }
+        .skill2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+           
+        }
+    
+        .text1{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    
+        .text1 h1{
+            font-size: 24px;
+            font-family: 'Quando', sans-serif;
+        }
+    
+        .text1 p{
+            font-size: 16px;
+        }
+    
+        .skill-sub1 p{
+            font-size: 16px;
+            padding-right: 500px;
+            text-align: left;
+        }
+    
+        .skill-info p{
+            font-size: 16px;
+        }
+    
+        .service h1{
+            font-size: 24px;
+        }
+    
+        .serve{
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            margin-right: 50px;
+            justify-content: center;
+        }
+    
+        .serve1 img{
+            width: 270px;
+            height: 243.87px;
+        }
+    
+        .serve1 p{
+            font-size: 24px;
+        }
+    
+        .serve2 p{
+            font-size: 16px;
+        }
+    
+        .exp1 p{
+            font-size: 24px;
+        }
+    
+        .exp2 p{
+            font-size: 24px;
+        }
+    
+        .serve12 img{
+            width: 270px;
+            height: 240px;
+        }
+    
+        .serve12 p{
+            font-size: 24px;
+        }
+}
