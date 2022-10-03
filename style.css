@@ -151,7 +151,8 @@ ul li button .hire-btn{
     font-size: 40px;
     background-color: #E7D4FA;
     /* padding-top: 40px; */
-    font-family: 'Quando', sans-serif;                        
+    font-family: 'Quando', sans-serif;
+    padding-bottom: 70px;                        
 }
 
 .serve{
@@ -183,14 +184,14 @@ ul li button .hire-btn{
 .serve12 p{
     font-size: 40px;
     font-family: 'Quando', sans-serif; 
-    padding-left: 250px; 
+    padding-left: 150px; 
     margin-top: 40px;
 }
 
 .serve1 p{
     font-size: 40px;
     font-family: 'Quando', sans-serif; 
-    padding-left: 150px; 
+    padding-left: 70px; 
     margin-top: 40px;
 }
 
@@ -228,7 +229,8 @@ ul li button .hire-btn{
 }
 
 .clients h2{
-    padding-left: 100px;
+    /* padding-left: 100px; */
+    padding-bottom: 50px;
     font-size: 40px;
     font-family: 'Quando', sans-serif; 
 }
@@ -925,6 +927,7 @@ background: url(Frame\ 19.png);
 }
 .service-page h1{
     padding-left: 150px;
+    padding-bottom: 30px;
 }
 
 .service-page{
@@ -935,13 +938,19 @@ background: url(Frame\ 19.png);
     margin-top: 300px;
     
 }
+
+.service-page .serve{
+    padding-top: 60px;
+
+}
+
 .service-page h1{
     text-align: left;
     font-size: 40px;
     /* background-color: #E7D4FA; */
     /* padding-top: 40px; */
     font-family: 'Quando', sans-serif;
-    padding-left: 150px;                      
+    padding-left: 120px;                      
 }
 
 .serve2-page{
@@ -965,7 +974,7 @@ background: url(Frame\ 19.png);
 .serve1-page p{
     font-size: 40px;
     font-family: 'Quando';
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 30px;
 }
 
@@ -984,7 +993,7 @@ background: url(Frame\ 19.png);
 .serve3-page p{
     font-size: 40px;
     font-family: 'Quando';
-    padding-left: 260px;
+    padding-left: 150px;
     padding-top: 30px;
 }
 
