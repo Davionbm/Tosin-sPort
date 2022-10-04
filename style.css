@@ -449,41 +449,43 @@ hr{
     }
 
     .serve2 p{
-        margin: 0;
         margin-left: 50px;
+        margin-right: 0px;
     }
     
     .serve1 img{
         height: 243.87px;
         width: 270px;
-        margin-left: 80px;
+        margin-left: 60px;
         overflow-x: hidden;
     }
     
     .serve12 img{
         height: 243.87px;
         width: 270px;
-        margin-left: 80px;
+        margin-left: 60px;
+        padding-top: 50px;
     }
     
     
     .serve12 p{
         font-size: 24px;
         font-family: 'Quando', sans-serif; 
-        padding-left: 130px; 
+        padding-left: 110px; 
         margin-top: 40px;
     }
     
     .serve1 p{
         font-size: 24px;
         font-family: 'Quando', sans-serif; 
-        padding-left: 100px; 
+        padding-left: 70px; 
         margin-top: 40px;
     }
     
     .sub-serve2{
         display: flex;
         justify-content: space-evenly;
+        margin-left: 60px;
     }
     
     .serve2 p{
@@ -866,6 +868,14 @@ background: url(Frame\ 19.png);
         margin-left: 30px;
         margin-right: 30px;
     }
+
+    .about1{
+        padding-bottom: 50px;
+    }
+
+    .about3{
+        padding-bottom: 50px;
+    }
     
     .about-container-2{
         display: flex;
@@ -1055,7 +1065,7 @@ background: url(Frame\ 19.png);
         width: 310px;
         height: 280px;
         padding-right: 0px;
-        margin-left: 70px;
+        margin-left: 60px;
     }
     
     .serve1-page p{
@@ -1071,7 +1081,7 @@ background: url(Frame\ 19.png);
     .serve3-page img{
         width: 310px;
         height: 280px;
-        margin-left: 70px;
+        margin-left: 60px;
         padding-top: 50px;
     }
     
